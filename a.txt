@@ -1,2 +1,13 @@
-hi there
-i am kushal
+import os,sys,time
+
+def func():
+	try:
+		a=10
+		print(a/0)
+	except Exception as e:
+		print(e)
+		sleep(10)
+
+
+if(__name__=="__main__"):
+	func()
